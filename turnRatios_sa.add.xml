@@ -1,0 +1,140 @@
+<turns>
+    <interval begin="0" end="500">
+        <fromEdge id="e2">
+            <toEdge id="e3" probability="0.15"/>
+            <toEdge id="e5" probability="0.85"/>
+        </fromEdge>
+        <fromEdge id="left0_0">
+            <toEdge id="e6#2" probability="0.15"/>
+            <toEdge id="left1_0" probability="0.85"/>
+        </fromEdge>
+        <fromEdge id="e6#2">
+            <toEdge id="e6#3" probability="0.15"/>
+            <toEdge id="e6#4" probability="0.85"/>
+        </fromEdge>
+        <fromEdge id="e6">
+            <toEdge id="e6#3" probability="0.15"/>
+            <toEdge id="e6#1" probability="0.85"/>
+        </fromEdge>
+        <fromEdge id="right2_0">
+            <toEdge id="right1_0" probability="0.15"/>
+            <toEdge id="e7" probability="0.85"/>
+        </fromEdge>
+        <fromEdge id="e7">
+            <toEdge id="e6#2" probability="0.15"/>
+            <toEdge id="left1_0" probability="0.85"/>
+        </fromEdge>
+        <fromEdge id="left3_0">
+            <toEdge id="e8#1" probability="0.15"/>
+            <toEdge id="left4_0" probability="0.85"/>
+        </fromEdge>
+        <fromEdge id="left4_0">
+            <toEdge id="e9#1" probability="0.15"/>
+            <toEdge id="left5_0" probability="0.85"/>
+        </fromEdge>
+        <fromEdge id="left5_0">
+            <toEdge id="left6#1_0" probability="0.3"/>
+            <toEdge id="left6_0" probability="0.7"/>
+        </fromEdge>
+        <fromEdge id="left12_0">
+            <toEdge id="left13#1_0" probability="0.3"/>
+            <toEdge id="left13_0" probability="0.7"/>
+        </fromEdge>
+        <fromEdge id="bot1_1">
+            <toEdge id="right10_0" probability="0.3"/>
+            <toEdge id="left13#2_0" probability="0.7"/>
+        </fromEdge>
+        <fromEdge id="left16_0">
+            <toEdge id="bot2_0" probability="0.3"/>
+            <toEdge id="left17_0" probability="0.7"/>
+        </fromEdge>
+        <fromEdge id="top2_0">
+            <toEdge id="right13_0" probability="0.3"/>
+            <toEdge id="left17_0" probability="0.7"/>
+        </fromEdge>
+        <fromEdge id="left17_0">
+            <toEdge id="e23#1" probability="0.15"/>
+            <toEdge id="left18_0" probability="0.85"/>
+        </fromEdge>
+        <fromEdge id="left21_0">
+            <toEdge id="e26#1" probability="0.15"/>
+            <toEdge id="left22_0" probability="0.85"/>
+        </fromEdge>
+        <fromEdge id="left25_0">
+            <toEdge id="e30#1" probability="0.15"/>
+            <toEdge id="left26_0" probability="0.85"/>
+        </fromEdge>
+        <fromEdge id="left26_0">
+            <toEdge id="top3_1" probability="0.3"/>
+            <toEdge id="left27_0" probability="0.7"/>
+        </fromEdge>
+        <fromEdge id="left29_0">
+            <toEdge id="e34#1" probability="0.15"/>
+            <toEdge id="left30_0" probability="0.85"/>
+        </fromEdge>
+        <fromEdge id="bot3_1">
+            <toEdge id="right19_0" probability="0.3"/>
+            <toEdge id="left27_0" probability="0.7"/>
+        </fromEdge>
+        <fromEdge id="left30_0">
+            <toEdge id="left31#1_0" probability="0.15"/>
+            <toEdge id="left31_0" probability="0.85"/>
+        </fromEdge>
+         <fromEdge id="right23_0">
+            <toEdge id="right22_0" probability="0.3"/>
+            <toEdge id="bot4_0" probability="0.7"/>
+        </fromEdge>
+        <fromEdge id="top4_0">
+            <toEdge id="right22_0" probability="0.3"/>
+            <toEdge id="left32_0" probability="0.7"/>
+        </fromEdge>
+        <fromEdge id="top4_1">
+            <toEdge id="top4_2" probability="0.15"/>
+            <toEdge id="bot4_3" probability="0.85"/>
+        </fromEdge>
+        <fromEdge id="bot4_2">
+            <toEdge id="right22#1_0" probability="0.15"/>
+            <toEdge id="bot4_1" probability="0.85"/>
+        </fromEdge>
+        <fromEdge id="left34_0">
+            <toEdge id="e39#1" probability="0.15"/>
+            <toEdge id="left35_0" probability="0.85"/>
+        </fromEdge>
+        <fromEdge id="top5_2">
+            <toEdge id="top5_3" probability="0.15"/>
+            <toEdge id="bot5_2" probability="0.85"/>
+        </fromEdge>
+        <fromEdge id="bot5_2">
+            <toEdge id="right33#1_0" probability="0.15"/>
+            <toEdge id="bot5_1" probability="0.85"/>
+        </fromEdge>
+        <fromEdge id="right34_0">
+            <toEdge id="right33_0" probability="0.3"/>
+            <toEdge id="bot5_0" probability="0.7"/>
+        </fromEdge>
+        <fromEdge id="bot6_1">
+            <toEdge id="right39_0" probability="0.3"/>
+            <toEdge id="left60_0" probability="0.7"/>
+        </fromEdge>
+        <fromEdge id="right40_0">
+            <toEdge id="top6_1" probability="0.3"/>
+            <toEdge id="right39_0" probability="0.7"/>
+        </fromEdge>
+        <fromEdge id="right20_0">
+            <toEdge id="top3_1" probability="0.3"/>
+            <toEdge id="right19_0" probability="0.7"/>
+        </fromEdge>
+        <fromEdge id="right14_0">
+            <toEdge id="bot2_0" probability="0.3"/>
+            <toEdge id="right13_0" probability="0.7"/>
+        </fromEdge>
+        <fromEdge id="right11_0">
+            <toEdge id="top1_1" probability="0.3"/>
+            <toEdge id="right10_0" probability="0.7"/>
+        </fromEdge>
+        <fromEdge id="right8_0">
+            <toEdge id="top0_1" probability="0.3"/>
+            <toEdge id="right7_0" probability="0.7"/>
+        </fromEdge>
+    </interval>
+</turns>

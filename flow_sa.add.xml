@@ -1,0 +1,4 @@
+<flowdefs>
+    <flow id="flow0" from="e1" begin="0" end="100" period="0.99" departLane="best" departPos="free" departSpeed="max" type="type1"/>
+    <flow id="flow1" from="right47_0" begin="0" end="100" period="0.99" departLane="best" departPos="free" departSpeed="max" type="type1"/>
+</flowdefs>

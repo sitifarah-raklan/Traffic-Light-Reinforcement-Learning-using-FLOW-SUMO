@@ -1,0 +1,24 @@
+Need to have:
+1.flow framework*
+2.sumo*
+3.network file
+4.routefile - flow, vtype, turnRatio
+5.train.py
+6.exp_config
+7.environment (put trafficlightgridtest in /flow/flow/envs) 
+-modify _init_.py
+by adding "from flow.envs.traffic_light_grid_test import TrafficLightGridEnvTest, \
+    TrafficLightGridPOEnvTest, TrafficLightGridTestEnvTest, TrafficLightGridBenchmarkEnvTest" on top and adding 
+"
+    'TrafficLightGridEnvTest',
+    'TrafficLightGridPOEnvTest',
+    'TrafficLightGridBenchmarkEnvTest',
+    'TrafficLightGridTestEnvTest',
+" in __all__
+8.ray_result (put training result in ray_result folder)
+9.put base.py into flow/flow/networks
+-initial same as in flow but added some configuration like nodemapping to
+accommodate env
+
+*put trafficLightRL folder inside flow folder (/flow/trafficLightRL)
+

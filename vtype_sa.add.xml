@@ -1,0 +1,3 @@
+<vTypeDistribution id="type1">
+    <vType id="car" accel="2.9" decel="7.5" sigma="0.5" length="4.3" maxSpeed="50" minGap="2.5" speedDev="0.1"/>
+</vTypeDistribution>
